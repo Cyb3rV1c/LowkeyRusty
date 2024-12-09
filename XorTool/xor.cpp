@@ -36,8 +36,8 @@ void xor_encrypt_file(const std::string& input_file, const std::string& output_f
 
 int main() {
     // Specify the input and output file paths
-    std::string input_file = "C:\\Users\\Anonym\\Desktop\\Proj\\beacon\\shell.bin";
-    std::string output_file = "C:\\Users\\Anonym\\Desktop\\Proj\\beacon\\shell_out.bin";
+    std::string input_file = "C:\\Path\\shell.bin";
+    std::string output_file = "C:\\Path\\shell_out.bin";
 
     // Define the XOR key
     std::string key = "Randomkey";
