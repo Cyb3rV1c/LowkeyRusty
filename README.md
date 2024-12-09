@@ -16,12 +16,13 @@ A Rust-based process injection tool leveraging XOR-encrypted payloads and dynami
 
 
 # Usage
+1. Xor your shellcode using the Xor tool
 
-1. Add the path to your x0r encrypted payload into the main.rs file
+2. Add the path to your x0r encrypted payload into the main.rs file
 
-2. Specify Secret Key for Decryption
+3. Specify Xor Key for Decryption
 
-3. Build Cargo and Execute.
+4. Build Cargo and Execute.
 
 # Example Output
 
